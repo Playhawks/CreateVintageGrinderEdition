@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="vintage_grinder"
+    namespace="vintage_grinder"
+    version="1.20.1-1.3.0"
+    displayName="Create: Vintage Grinder Edition"
+    displayURL=""
+    issueTrackerURL=""
+    authors = "BluePHS"
+    logoFile = "logo.png"
+    description="Just a simplier version of Create: Vintage with just the Grinder."
+
+[[dependencies.vintage_grinder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.vintage_grinder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vintage_grinder]]
+    modId="create"
+    mandatory=true
+    versionRange="[6.0.6, )"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vintage_grinder]]
+    modId="kubejs"
+    mandatory=false
+    versionRange="[2001.6.5-build.16, )"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vintage_grinder]]
+    modId="kubejs_create"
+    mandatory=false
+    versionRange="[2001.3.0-build.8, )"
+    ordering="NONE"
+    side="BOTH"

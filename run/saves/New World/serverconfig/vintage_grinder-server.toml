@@ -1,0 +1,50 @@
+
+#.
+#Packmakers' control panel for internal recipe compat
+[recipes]
+
+	#.
+	#.
+	#Recipes configs
+	[recipes.recipes]
+
+		#.
+		#Grinder settings
+		[recipes.recipes.grinder]
+			#.
+			#Destroy item, when it inserted in grinder with wrong recipe speed. Only for sandpaper recipes.
+			destroyOnWrongGrinderSpeed = false
+			#.
+			#Low speed value for grinder crafts, speedLimits = 1.
+			#Range: 1 ~ 256
+			lowSpeedValue = 16
+			#.
+			#Medium speed value for grinder crafts, speedLimits = 2.
+			#Range: 1 ~ 256
+			mediumSpeedValue = 64
+			#.
+			#Allows sandpaper crafts on belt grinder, when recipes collides belt grinder recipe have priority.
+			allowSandpaperPolishingOnGrinder = true
+			#.
+			#Works only when "allowSandpaperPolishingOnGrinder" is true. Defines speed limits for sandpaper recipes on belt grinder.
+			#Range: 0 ~ 3
+			speedLimitsForSandpaperPolishingRecipes = 1
+
+#.
+#Parameters and abilities of kinetic mechanisms
+[kinetics]
+
+	[kinetics.stressValues]
+
+		#.
+		#.
+		#Fine tune the kinetic stats of individual components
+		[kinetics.stressValues.v2]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v2.impact]
+				belt_grinder = 4.0
+

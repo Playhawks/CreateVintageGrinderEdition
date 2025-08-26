@@ -1,0 +1,33 @@
+{
+	"itemGroup.vintage_grinder": "Create: Vintage Grinder Edition",
+	
+	"block.vintage_grinder.belt_grinder": "Bandschleifmaschine",
+	"item.vintage_grinder.grinder_belt": "Schleifband",
+	"vintage_grinder.recipe.assembly.polishing": "Polieren auf einer Schleifmaschine",
+	"vintage_grinder.recipe.polishing": "Polieren",
+	"vintage_grinder.recipe.grinder_sandpaper_polishing": "Polieren",
+	"vintage_grinder.recipe.assembly.speed": "Geschwindigkeit",
+	"vintage_grinder.recipe.assembly.low": "gering",
+	"vintage_grinder.recipe.assembly.medium": "Mittel",
+	"vintage_grinder.recipe.assembly.high": "Hoch",
+	"vintage_grinder.recipe.assembly.any": "Beliebig",
+	
+	"vintage_grinder.ponder.belt_grinder_processing.header": "Bearbeitung von Werkstücken auf der Bandschleifmaschine",
+	"vintage_grinder.ponder.belt_grinder_processing.text_1": "Bandschleifmaschinen können eine Vielzahl von Gegenständen bearbeiten.",
+	"vintage_grinder.ponder.belt_grinder_processing.text_2": "Das zu bearbeitende Werkstück bewegt sich immer entgegen der Drehrichtung des Schleifers.",
+	"vintage_grinder.ponder.belt_grinder_processing.text_3": "Einige Rezepte erfordern eine bestimmte Drehzahl.",
+	"vintage_grinder.ponder.belt_grinder_processing.text_4": "Es gibt drei Geschwindigkeitsstufen: Niedrig (16 U/min oder weniger), Mittel (zwischen 16 und 64 U/min) und Hoch (über 64 U/min).",
+	
+	"vintage_grinder.jei.text.required_speed": "Erforderliche Geschwindigkeit:",
+	"vintage_grinder.jei.text.low": "Niedrig",
+	"vintage_grinder.jei.text.medium": "Mittel",
+	"vintage_grinder.jei.text.high": "Hoch",
+	"vintage_grinder.jei.text.any": "Beliebig",
+	"vintage_grinder.jei.text.fragile": "Empfindlich. Bei falscher Geschwindigkeit wird die Zutat zerstört",
+	
+	"advancement.vintage_grinder.root": "Willkommen bei Create: vintage_grinder",
+	"advancement.vintage_grinder.belt_grinder": "Zum Polieren",
+	"advancement.vintage_grinder.belt_grinder.desc": "Verwenden Sie eine Bandschleifmaschine, um Materialien zu bearbeiten",
+	"advancement.vintage_grinder.belt_grinder_skin_change": "Modenschau",
+	"advancement.vintage_grinder.belt_grinder_skin_change.desc": "Ändere die Oberfläche des Bandschleifers durch Rechtsklick mit einem Schleifpapier"
+}
