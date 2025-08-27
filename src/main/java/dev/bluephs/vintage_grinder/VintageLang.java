@@ -1,11 +1,7 @@
 package dev.bluephs.vintage_grinder;
 
-import com.simibubi.create.foundation.utility.CreateLang;
-import net.createmod.catnip.lang.LangBuilder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-
-import static net.createmod.catnip.lang.LangBuilder.resolveBuilders;
 
 public class VintageLang extends CreateLang {
 

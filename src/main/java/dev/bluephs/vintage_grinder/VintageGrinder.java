@@ -3,35 +3,15 @@ package dev.bluephs.vintage_grinder;
 import dev.bluephs.vintage_grinder.foundation.advancement.VintageAdvancements;
 import dev.bluephs.vintage_grinder.infrastructure.config.VintageConfig;
 import dev.bluephs.vintage_grinder.infrastructure.ponder.VintagePonderPlugin;
-import com.simibubi.create.AllItems;
-import com.simibubi.create.foundation.data.CreateRegistrate;
-import net.createmod.catnip.lang.FontHelper;
-import net.createmod.ponder.foundation.PonderIndex;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
-import com.simibubi.create.foundation.item.ItemDescription;
-import com.simibubi.create.foundation.item.KineticStats;
-import com.simibubi.create.foundation.item.TooltipModifier;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 
 @Mod(VintageGrinder.MOD_ID)
 public class VintageGrinder {

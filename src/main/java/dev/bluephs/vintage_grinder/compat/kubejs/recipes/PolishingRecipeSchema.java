@@ -15,8 +15,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 public interface PolishingRecipeSchema {
 
-	RecipeKey<OutputItem> RESULT = ItemComponents.OUTPUT.key("results");
-	RecipeKey<InputItem> INGREDIENT = ItemComponents.INPUT.key("ingredients");
+	RecipeKey<OutputItem[]> RESULTS = ItemComponents.OUTPUT_ARRAY.key("results");
+	RecipeKey<InputItem[]> INGREDIENT = ItemComponents.INPUT_ARRAY.key("ingredients");
 	RecipeKey<Long> PROCESSING_TIME_REQUIRED = TimeComponent.TICKS.key("processingTime").optional(100L).alwaysWrite();
 	RecipeKey<Boolean> FRAGILE = BooleanComponent.BOOLEAN.key("fragile").optional(false);
 	RecipeKey<Integer> SPEED_LIMIT = NumberComponent.IntRange.INT.key("speedLimits").optional(0);
@@ -58,5 +58,5 @@ public interface PolishingRecipeSchema {
 		}
 	}
 
-	RecipeSchema POLISHING_PROCESSING = new RecipeSchema(ProcessingRecipeJS.class, ProcessingRecipeJS::new, RESULT, INGREDIENT, PROCESSING_TIME_REQUIRED, SPEED_LIMIT, FRAGILE);
+	RecipeSchema POLISHING_PROCESSING = new RecipeSchema(ProcessingRecipeJS.class, ProcessingRecipeJS::new, RESULTS, INGREDIENT, PROCESSING_TIME_REQUIRED, SPEED_LIMIT, FRAGILE);
 }

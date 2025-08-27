@@ -1,12 +1,9 @@
 package dev.bluephs.vintage_grinder;
 
 import dev.bluephs.vintage_grinder.content.kinetics.grinder.PolishingRecipe;
-import net.minecraft.core.NonNullList;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.*;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class VintageRecipesList {

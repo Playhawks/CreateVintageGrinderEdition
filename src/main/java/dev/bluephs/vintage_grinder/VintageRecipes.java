@@ -2,25 +2,13 @@ package dev.bluephs.vintage_grinder;
 
 import java.util.Optional;
 import java.util.function.Supplier;
-
-import com.simibubi.create.AllTags;
-import com.simibubi.create.foundation.utility.CreateLang;
 import net.minecraft.world.item.crafting.*;
 import org.jetbrains.annotations.Nullable;
-
 import dev.bluephs.vintage_grinder.content.kinetics.grinder.PolishingRecipe;
-import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder.ProcessingRecipeFactory;
-import com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer;
-import com.simibubi.create.foundation.recipe.IRecipeTypeInfo;
-
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Container;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 
 public enum VintageRecipes implements IRecipeTypeInfo {
 

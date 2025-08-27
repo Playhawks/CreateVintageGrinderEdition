@@ -1,16 +1,12 @@
 package dev.bluephs.vintage_grinder;
 
 import dev.bluephs.vintage_grinder.infrastructure.config.VCStress;
-import com.simibubi.create.AllTags;
 import dev.bluephs.vintage_grinder.content.kinetics.grinder.*;
-import com.simibubi.create.foundation.data.SharedProperties;
-import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.material.MapColor;
 
 import static dev.bluephs.vintage_grinder.VintageGrinder.MY_REGISTRATE;
-import static com.simibubi.create.foundation.data.TagGen.*;
 
 public class VintageBlocks {
 
