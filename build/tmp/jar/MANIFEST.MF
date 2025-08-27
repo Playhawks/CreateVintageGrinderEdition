@@ -3,7 +3,7 @@ Specification-Title: vintage_grinder
 Specification-Vendor: BluePHS
 Specification-Version: 1
 Implementation-Title: 1.20.1
-Implementation-Version: 1.20.1-1.0.0-beta
+Implementation-Version: 1.20.1-1.0.0
 Implementation-Vendor: BluePHS
-Implementation-Timestamp: 2025-08-26T22:31:25+0200
+Implementation-Timestamp: 2025-08-27T12:03:14+0200
 
