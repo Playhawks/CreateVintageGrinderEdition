@@ -11,9 +11,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 
 public class GrinderFilterSlot extends ValueBoxTransform {
-
-
-
 	@Override
 	public Vec3 getLocalOffset(LevelAccessor levelAccessor, BlockPos blockPos, BlockState state) {
 		int offset = 6;
@@ -24,7 +21,6 @@ public class GrinderFilterSlot extends ValueBoxTransform {
 
 	@Override
 	public void rotate(LevelAccessor levelAccessor, BlockPos blockPos, BlockState blockState, PoseStack poseStack) {
-
 		int yRot = 180;
 		TransformStack.of(poseStack)
 				.rotateY(yRot)
